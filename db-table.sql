@@ -1,5 +1,6 @@
-USE [db-test];
+--liquibase formatted sql
 
+--changeset public:03 
 CREATE TABLE FirstTable
 (
     [Name] VARCHAR(100) NOT NULL,
