@@ -1,5 +1,5 @@
 --liquibase formatted sql
-CREATE DATABASE Test;
+CREATE DATABASE test;
 --changeset public:03 
 CREATE TABLE FirstTable
 (
