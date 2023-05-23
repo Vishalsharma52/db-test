@@ -1,5 +1,5 @@
 --liquibase formatted sql
---changeset public:03 
+--changeset public:04
 CREATE DATABASE test2;
 CREATE TABLE SecondTable
 (
