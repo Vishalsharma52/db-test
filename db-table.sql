@@ -1,5 +1,5 @@
 --liquibase formatted sql
-CREATE DATABASE test;
+CREATE DATABASE test1;
 --changeset public:03 
 CREATE TABLE FirstTable
 (
@@ -8,3 +8,5 @@ CREATE TABLE FirstTable
     [MobileNumber] VARCHAR(20) NULL,
     [DOB] DATE NULL
 );
+
+--rollback drop table FirstTable;
