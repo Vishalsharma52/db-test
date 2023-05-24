@@ -1,7 +1,7 @@
 --liquibase formatted sql
---changeset public:04
-CREATE DATABASE test2;
-CREATE TABLE SecondTable
+--changeset public:01
+CREATE DATABASE test1;
+CREATE TABLE FirstTable
 (
     [Name] VARCHAR(100) NOT NULL,
     [Email] VARCHAR(255) NOT NULL,
