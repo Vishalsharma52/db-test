@@ -18,7 +18,7 @@ VALUES
     ('Jane Smith', 'janesmith@example.com', '9876543210', '1995-02-15')
      ;
      
---changeset Vishal:02
+--changeset Vishal:03
 
 -- Insert random entries into the table
 INSERT INTO YourTableName ([Name], [Email], [MobileNumber], [DOB])
