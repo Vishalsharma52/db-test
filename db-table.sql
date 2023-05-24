@@ -1,6 +1,7 @@
 --liquibase formatted sql
 --changeset public:01
 CREATE DATABASE test1;
+USE test1;
 CREATE TABLE FirstTable
 (
     [Name] VARCHAR(100) NOT NULL,
