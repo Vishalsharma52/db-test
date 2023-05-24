@@ -21,7 +21,7 @@ VALUES
 --changeset Vishal:03
 
 -- Insert random entries into the table
-INSERT INTO YourTableName ([Name], [Email], [MobileNumber], [DOB])
+INSERT INTO FirstTable ([Name], [Email], [MobileNumber], [DOB])
 VALUES
     ('Michael Johnson', 'michaeljohnson@example.com', '5555555555', '1988-07-10'),
     ('Sarah Davis', 'sarahdavis@example.com', '9999999999', '1992-11-30'),
