@@ -1,6 +1,8 @@
 --liquibase formatted sql
---changeset public:01
+--changeset Vishal:01
 CREATE DATABASE test1;
+
+--changeset Vishal:02
 USE test1;
 CREATE TABLE FirstTable
 (
@@ -10,4 +12,3 @@ CREATE TABLE FirstTable
     [DOB] DATE NULL
 );
 
---rollback drop table FirstTable;
