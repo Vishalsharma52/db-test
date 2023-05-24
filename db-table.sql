@@ -15,5 +15,5 @@ CREATE TABLE FirstTable
 INSERT INTO FirstTable ([Name], [Email], [MobileNumber], [DOB])
 VALUES
     ('John Doe', 'johndoe@example.com', '1234567890', '1990-01-01'),
-    ('Jane Smith', 'janesmith@example.com', '9876543210', '1995-02-15'),
+    ('Jane Smith', 'janesmith@example.com', '9876543210', '1995-02-15')
      ;
