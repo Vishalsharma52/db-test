@@ -14,3 +14,9 @@ CREATE TABLE FirstTable
     [DOB] DATE NULL
 );
 
+--changeset Vishal:03
+
+USE dbtest;
+INSERT INTO FirstTable (Name, LastName, Email, MobileNumber, DOB)
+VALUES ('Vishal', 'sharma', 'svishalsharma52@gmail.com', '7531820256', '18072000');
+
