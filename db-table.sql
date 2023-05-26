@@ -1,6 +1,9 @@
 --liquibase formatted sql
 
 --changeset Vishal:01
+CREATE DATABASE dbtest;
+
+--changeset Vishal:02
 USE dbtest;
 CREATE TABLE FirstTable
 (
