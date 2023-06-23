@@ -1,9 +1,5 @@
---liquibase formatted sql
-
---changeset Vishal:01
 CREATE DATABASE dbtest;
 
---changeset Vishal:02
 USE dbtest;
 CREATE TABLE FirstTable
 (
@@ -14,7 +10,6 @@ CREATE TABLE FirstTable
     [DOB] DATE NULL
 );
 
---changeset Vishal:03
 
 USE dbtest;
 INSERT INTO FirstTable (Name, LastName, Email, MobileNumber, DOB)
